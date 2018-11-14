@@ -6,7 +6,7 @@ mapboxgl.accessToken =
 let map = new mapboxgl.Map({
   container: "map",
   center: [35.272, -120.74],
-  zoom: 8, // starting zoom
+  zoom: 9, // starting zoom
   style: "mapbox://styles/mapbox/streets-v10"
 });
 const markerDomEl = document.createElement("div"); // Create a new, detached DIV
