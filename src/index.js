@@ -1,7 +1,6 @@
 const mapboxgl = require("mapbox-gl");
 
-mapboxgl.accessToken =
-  "pk.eyJ1Ijoic2NvdHRhbmRlcnNvbmdpcyIsImEiOiJjam9nZnF3eHkwZXA3M2txZnI0eGp1Zjc3In0.aHI2v_hYZxiu2Z0bhcyZNQ";
+mapboxgl.accessToken = "nope"
 
 let map = new mapboxgl.Map({
   container: "map",
